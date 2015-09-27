@@ -88,16 +88,14 @@ comm<-paste(comm,fName,"=mean(",fName,"),")
 
 #Build group for summarization (Activity by Subject for mean of variables)
 
-DS_Ext_Gr<-mutate(DS_Extract,Gr=paste(Activity," by ",Subject))
+DS_Ext_Gr<-mutate(DS_Extract,Group=paste(Activity," by ",Subject))
 
 #Grouping data
-DS_Grouped_A_by_S<-group_by(DS_Ext_Gr,Gr)
+DS_Grouped_A_by_S<-group_by(DS_Ext_Gr,Group)
 
 
 #Calculatiion of means for the grouping (generated in comm + formating)
 DS_AVG_BY_Activity_Subject<-summarise(DS_Grouped_A_by_S,
-                                      Activity=Activity,
-                                      Subject=Subject,
           X1.tBodyAcc.mean...X =mean( X1.tBodyAcc.mean...X ), 
           X2.tBodyAcc.mean...Y =mean( X2.tBodyAcc.mean...Y ), 
           X3.tBodyAcc.mean...Z =mean( X3.tBodyAcc.mean...Z ), 
