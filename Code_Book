@@ -1,7 +1,7 @@
-#Gr - field for Activity done by specific user   
-#All other varialbe represet means by this Grouping in accordance with X+Number of column+Name from original dataset.
+Gr - field for Activity done by specific user   
+All other varialbe represet means by this Grouping in accordance with X+Number of column+Name from original dataset.
 
-#Meaning of every field can be understood from original discription:
+Meaning of every field can be understood from original discription:
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
 
