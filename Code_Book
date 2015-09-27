@@ -1,5 +1,5 @@
-Gr - field for Activity done by specific user   
-All other varialbe represet means by this Grouping in accordance with X+Number of column+Name from original dataset.
+"Gr" - is Grouping field for Activity done by Specific user   
+All other varialbe represet means by this Grouping in accordance with X+Number of column+Name from original dataset with replacing special symbols by ".".
 
 Meaning of every field can be understood from original discription:
 
